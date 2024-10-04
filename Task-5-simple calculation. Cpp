@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+int main()
+{
+  
+  char ch;
+  int a,b,res;
+  sacnf("%c",&ch);
+  
+  switch (ch)
+  
+  { 
+   case :'+';
+   res=a+b;
+    printf("%d\n",a+b);
+    break;
+     case :'-';
+     res=a-b;
+     printf("%d\n",a-b);
+     break;
+     case : '*';
+     res=a*b;
+      printf ("%d\n",a*b);
+      break;
+      case: '/'
+      res=a/b;
+      printf("%d\n",a/b);
+       break;
+       default :
+       printf("Invalid operation \n");
+    
+    }
+    return  0;
+  }
